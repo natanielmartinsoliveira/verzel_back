@@ -12,7 +12,7 @@
 <section id="test-db" style="padding: 10px;">
 <h2>Running and testing our project.</h2>
 <p>Com tudo já configurado chegou de rodar nosso ambiente.</p>
-<p>No seu terminal navegue até o diretório <code>/environmentProject/</code> e passe o comando para o docker-compose começar a construir os containers:</p>
+<p>No seu terminal navegue até o diretório <code>/verzel_back/</code> e passe o comando para o docker-compose começar a construir os containers:</p>
 <pre>
 docker-compose build
 </pre>
@@ -20,7 +20,7 @@ docker-compose build
 <pre>
 docker-compose up -d
 </pre>
-<p>Feito isso basta entrar no seu <a href="https://localhost">localhost:8082</a> e pronto! </p>
+<p>Feito isso basta entrar no seu <a href="https://localhost:8084">localhost:8084</a> e pronto! </p>
 <p>Caso queira testar sua conexão via Laravel você vai precisar editar o arquivo /example-app/.env e setar as seguintes configurações:</p>
 <pre>
 DB_CONNECTION=mysql
